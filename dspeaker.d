@@ -66,6 +66,6 @@ class DSpeaker : Speaker{
 
 //Always continues synthesis
 extern(C) private int dummyCallback(short* a, int i, Event* e){
-    printf("Received %d samples\n", i);
+    //printf("Received %d samples\n", i);
     return 0;
 }

@@ -1,0 +1,1 @@
+xfbuild.exe +xcore +xstd +xetc +redeps +v -debug -gc gui.d +o=ipats.exe
