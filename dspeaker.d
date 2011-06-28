@@ -18,7 +18,7 @@
 Copyright (C) 2011 to David Osborne
 email: krendilboove@gmail.com
 
-ipats is a small IPA
+ipats is a small IPA to speech program, built on espeech
 */
 
 module ipats.dspeaker;

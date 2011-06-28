@@ -1,0 +1,30 @@
+ipats is a small IPA to speech program, built on espeak.
+
+Enter IPA text into the text input area, and press play.
+You can also enter X-SAMPA text enclosed in [[double square brackets]].
+
+To install, copy ip_dict and voices/ip into your espeak-data folder, and run ipats 
+(linux64 only for the moment).
+
+You can use the espeak voice without this frontend. Just use "-v ip" on the command line,
+or select the Ipa voice in whatever frontend you use.
+
+Runtime Dependencies:
+    GTK+
+    Espeak
+
+To build, run the build script (on linux, requires xfbuild), or do it yourself, with
+the options -L-lgtkd -L-lespeak and whatever else you usually compile with for D.
+
+Compile Dependencies:
+    DMD 2.053 (or compatible D compiler)
+    GTKD
+    dspeak (github.com/krendil/dspeak)
+    
+
+version 0.1:
+    ++GUI mostly works, infobar still doesn't
+    ++DSpeaker works, no saving
+    ++linux64 binary and build script included
+    ++ip voice included
+    
